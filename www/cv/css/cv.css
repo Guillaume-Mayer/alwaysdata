@@ -1,0 +1,282 @@
+body {
+	color: #333333;
+	font-family: "Segoe UI", Arial, sans-serif;
+	margin: 3mm 3mm 3mm 3mm;
+	background-color: #FFF9FF;
+}
+
+h1 {
+	color: #111111;
+	text-indent: 10%;
+	margin: 0;
+	font-size: 2em;
+}
+
+@media screen and (max-width: 640px) {
+	body {
+		margin: 0;
+	}
+	h1 {
+		margin-top: 17px;
+	}
+}
+
+h2 {
+	color: #770000;
+	text-indent: 10%;
+	margin:0;
+	margin-top: 1px;
+	font-size: 1.5em;
+}
+
+h3 {
+	color: #222222;
+	margin:0;
+	margin-bottom: 5px;
+	font-size: 1.2em;
+}
+
+h4 {
+	color: #770000;
+	margin: 0;
+	margin-top: 1px;
+	font-weight: 600;
+	font-size: 1.1em;
+}
+
+.skills-list-title {
+	text-indent: 30%;
+	margin-bottom: 8px;
+}
+
+nav {
+	position: absolute;
+	top: -10px;
+	right: 10px;
+}
+
+nav li {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.5;
+}
+
+nav li.selected {
+	opacity: 1;
+}
+
+/* hide language flags when printing */
+@media print {
+	nav {
+		display: none;
+	}
+}
+
+a {
+	color: navy;
+	text-decoration: none;
+}
+
+@media print {
+	a {
+		color: inherit;
+	}
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+@media screen {
+	#website {
+		display: none;
+	}
+}
+
+@media print {
+	#passport {
+		display: none;
+	}
+}
+
+section {
+	vertical-align: top;
+	margin: 4px;
+	padding: 12px;
+}
+
+@media print {
+	section {
+		page-break-inside: avoid;
+	}
+}
+
+.empresa {
+	display: inline-block;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	border: 0;
+	padding: 5px;
+	width: 85px;
+}
+
+.period {
+	display: inline-block;
+	font-style: italic;
+	margin: 0;
+	border: 0;
+	padding: 5px;
+	width: 210px;
+	text-align: right;
+}
+
+.desc {
+	display: inline-block;
+	margin: 0;
+	border: 0;
+	padding: 5px;
+}
+
+@media print {
+	h3 {
+		text-decoration: underline;
+	}
+}
+
+.personal-info {
+	position: relative;
+}
+
+.photo {
+	float: right;
+	margin: 5mm;
+}
+
+@media screen and (max-width: 640px) {
+	.photo {
+		float: none;
+		text-align: center;
+		margin-bottom: 7px;
+	}
+}
+
+.label {
+	font-weight: 600;
+	display: inline-block;
+	width: 140px;
+	text-align: right;
+}
+
+.label::after{
+	content: ":";
+	padding: 2px;
+}
+
+.data {
+	font-style: normal;
+}
+
+.skills-list {
+	display: inline-block;
+	margin: 0;
+	width: 440px;
+}
+
+@media screen and (max-width: 640px) {
+	.skills-list {
+		width: 260px;
+	}
+}
+
+@media print {
+	.skills-list {
+		width: 280px;
+	}
+}
+
+.skills-list article {
+	position: relative;
+}
+
+.skill {
+	font-weight: 500;
+	display: inline-block;
+	width: 250px;
+	text-align: right;
+}
+
+@media screen and (max-width: 640px) {
+	.skill {
+		width: 150px;
+	}
+}
+
+.skill::after{
+	content: ":";
+	padding: 2px;
+}
+
+.niv-bar {
+	display: inline-block;
+	position: absolute;
+	width: 100px;
+	height: 10px;
+	background-color: lightgrey;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 255px;
+}
+
+@media screen and (max-width: 640px) {
+	.niv-bar {
+		left: 155px;
+	}
+}
+
+@media print {
+	.niv-bar {
+		display: none;
+	}
+}
+
+.niv-niv {
+	position: absolute;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #8C3434;
+}
+
+.niv {
+	position: absolute;
+	top: 0;
+	left: 360px;
+	width: 300px;
+	font-style: normal;
+}
+
+@media screen and (max-width: 640px) {
+	.niv {
+		display: none;
+	}
+}
+
+@media print {
+	.niv {
+		left: 260px;
+	}
+}
+
+li {
+	list-style-type: square;
+}
+
+.dotted {
+	border-style: dotted;
+	border-color: black;
+	border-width: 1px;
+}
