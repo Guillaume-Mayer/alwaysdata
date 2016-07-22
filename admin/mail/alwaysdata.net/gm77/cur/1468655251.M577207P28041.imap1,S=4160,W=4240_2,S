@@ -1,0 +1,80 @@
+Return-Path: <gui77aume@gmail.com>
+Delivered-To: gm77@alwaysdata.net
+Received: from smtpin1.paris1.alwaysdata.com ([2a00:b6e0:1:42:1::1])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	by imap1.paris1.alwaysdata.com (Dovecot) with LMTP id nl89I3bmiVeJbQAA37iJ7g
+	for <gm77@alwaysdata.net>; Sat, 16 Jul 2016 09:47:31 +0200
+Return-path: <gui77aume@gmail.com>
+Envelope-to: gm77@alwaysdata.net
+Delivery-date: Sat, 16 Jul 2016 09:47:31 +0200
+Received: from mail-qk0-x241.google.com ([2607:f8b0:400d:c09::241])
+	by smtpin1.paris1.alwaysdata.com with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128)
+	(Exim 4.87)
+	(envelope-from <gui77aume@gmail.com>)
+	id 1bOKJt-0005NY-Qr
+	for gm77@alwaysdata.net; Sat, 16 Jul 2016 09:47:30 +0200
+Received: by mail-qk0-x241.google.com with SMTP id n202so6333987qke.0
+        for <gm77@alwaysdata.net>; Sat, 16 Jul 2016 00:47:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to;
+        bh=0nSmuv7BsRe79Pdmuyt2q6Gr8TEwNGTYDb6f9Rzrf68=;
+        b=vI2mO9zp2ohkzeapiFGm2CZRDbkC8W3nQvGFIWqK8l3lkLiaYHdVt67aJoYRKHtPxI
+         sKkGa7tObsUfLiRzFgWCd851swFUH0tYy0fDQfBbS/JLFZqJzkEVys11n51nkb6XD3TR
+         rDF36CrBW20g70TkZHkMwORvVaN0AtQibwBc4t9ew9hINuknEM9Lxm5icl9OjjByD/4P
+         G63KxkMdSFF8Jkh/rZksrT4xaMmlDU7yxgfJE6fIQ5u2qK+Hf6yRt/PhnYhN3P2Md7Gy
+         UAD71iTvlDRKP/aO8xz0E14eJvi0OCKULqn1wS1wrEtoXOYGEmAxjT8zFDro1yB9pYZO
+         aaog==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to;
+        bh=0nSmuv7BsRe79Pdmuyt2q6Gr8TEwNGTYDb6f9Rzrf68=;
+        b=WSh1zqG8exrc2IynKHrAJsTsUPH1rVrgXr2Cl8T0J2Q64ZnGKK4ANdDShMvulfgiAu
+         s3WoJHlUBzNTIY8N9Mxr+/JEHkY6xkEbpyfxKiaNfvquZt5rc/eK0ZhDj7OjVsUreq83
+         XG2Mc6AJBO4MfSNiWkeEZCxv+bhP4jn2hTQxmnCAyYZsxPQebAQiIFw64Sx8TucQyQd9
+         LPfEnMBUnlFmRxiJW42oyqTZQn6SnF+nr1vVmag6DNW6a/WK3cxGSGSnC3av7n490gar
+         phtL2NEj6B2P0VKH3od8/9Lsz18dDm6oQIDDBegmH7D0x9uj4b9vI5gsdiYFPXEPl/uY
+         rhOA==
+X-Gm-Message-State: ALyK8tJDUO74GkWiGnVIJIW2vgdE8jMnZwjku0ykTztS9gwvmrgyei+hMHJIMh2swZo4nj0161mX0UcLvzEyow==
+MIME-Version: 1.0
+X-Received: by 10.55.148.67 with SMTP id w64mr29306194qkd.137.1468655248797;
+ Sat, 16 Jul 2016 00:47:28 -0700 (PDT)
+Received: by 10.237.58.198 with HTTP; Sat, 16 Jul 2016 00:47:28 -0700 (PDT)
+Received: by 10.237.58.198 with HTTP; Sat, 16 Jul 2016 00:47:28 -0700 (PDT)
+Date: Sat, 16 Jul 2016 03:47:28 -0400
+Message-ID: <CAFjXy2kM-2ncfUDWO2XjQDiEQLGmngwCh3e5uUAg4BHF9R23rA@mail.gmail.com>
+Subject: Salut gm77
+From: Guillaume M <gui77aume@gmail.com>
+To: gm77@alwaysdata.net
+Content-Type: multipart/alternative; boundary=94eb2c084e8466f3e00537bbf239
+X-alwaysdata-Virus-Report: CLEAN
+X-alwaysdata-Spam-Score: -2.7
+X-alwaysdata-Spam-Report: Content analysis details:   (-2.7 points, 5.0 required)
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	-0.7 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+	                            trust
+	                            [2607:f8b0:400d:c09:0:0:0:241 listed in]
+	                            [list.dnswl.org]
+	 0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+	                            (gui77aume[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	 0.0 HTML_MESSAGE           BODY: HTML included in message
+	-1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+	                            [score: 0.0000]
+	-0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+	 0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+	-0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+	                            domain
+
+--94eb2c084e8466f3e00537bbf239
+Content-Type: text/plain; charset=UTF-8
+
+;)
+
+--94eb2c084e8466f3e00537bbf239
+Content-Type: text/html; charset=UTF-8
+
+<p dir="ltr">;)</p>
+
+--94eb2c084e8466f3e00537bbf239--

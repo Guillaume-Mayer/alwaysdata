@@ -1,0 +1,24 @@
+[Fri Jul 22 02:33:12 2016] [notice] Digest: generating secret for digest authentication ...
+[Fri Jul 22 02:33:12 2016] [notice] Digest: done
+[Fri Jul 22 02:33:12 2016] [info] mod_fcgid: Process manager 3557748 started
+[Fri Jul 22 02:33:12 2016] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jul 22 02:33:12 2016] [info] Server built: Mar 31 2015 17:28:57
+[Fri Jul 22 02:38:50 2016] [info] removed PID file /home/gm77/admin/apache/run/apache.pid (pid=3557729)
+[Fri Jul 22 02:38:50 2016] [notice] caught SIGWINCH, shutting down gracefully
+[Fri Jul 22 02:38:51 2016] [info] mod_fcgid: Process manager 3557748 stopped
+[Fri Jul 22 03:25:55 2016] [notice] Digest: generating secret for digest authentication ...
+[Fri Jul 22 03:25:55 2016] [notice] Digest: done
+[Fri Jul 22 03:25:55 2016] [info] mod_fcgid: Process manager 3703907 started
+[Fri Jul 22 03:25:55 2016] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jul 22 03:25:55 2016] [info] Server built: Mar 31 2015 17:28:57
+[Fri Jul 22 03:31:50 2016] [info] removed PID file /home/gm77/admin/apache/run/apache.pid (pid=3703891)
+[Fri Jul 22 03:31:50 2016] [notice] caught SIGWINCH, shutting down gracefully
+[Fri Jul 22 03:31:51 2016] [info] mod_fcgid: Process manager 3703907 stopped
+[Fri Jul 22 06:47:56 2016] [notice] Digest: generating secret for digest authentication ...
+[Fri Jul 22 06:47:56 2016] [notice] Digest: done
+[Fri Jul 22 06:47:56 2016] [info] mod_fcgid: Process manager 295806 started
+[Fri Jul 22 06:47:56 2016] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jul 22 06:47:56 2016] [info] Server built: Mar 31 2015 17:28:57
+[Fri Jul 22 06:53:50 2016] [info] removed PID file /home/gm77/admin/apache/run/apache.pid (pid=295793)
+[Fri Jul 22 06:53:50 2016] [notice] caught SIGWINCH, shutting down gracefully
+[Fri Jul 22 06:53:51 2016] [info] mod_fcgid: Process manager 295806 stopped
