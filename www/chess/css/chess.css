@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+#main {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.pan-side {
+	background-color: #999999;
+	flex: 1 1 0;
+	min-width: 0;
+	min-height: 0;
+	padding: 1%;
+}
+
+#pan-main {
+	background-color: yellow;
+	width: 100vmin;
+	height: 100vmin;
+}
+
+.tile-w {
+	fill: white;
+}
+
+.tile-b {
+	fill: black;
+}
+
+.tile-selected {
+	fill: blue;
+}
+
+.tile2-selected {
+	fill: green;
+}
