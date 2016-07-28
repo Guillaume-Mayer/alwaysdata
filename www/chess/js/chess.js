@@ -84,6 +84,8 @@ function drawPiece(piece, row, col) {
 	image.setAttribute("class", "piece");
 	image.addEventListener("click", pieceClicked);
 	svg.appendChild(image);
+	// Remove tile event listener to prevent magnifier on android chrome
+	document.getElementById(tileId(row, col)).removeEventListener("click", tileClicked);
 }
 
 // Draw all the pieces
@@ -203,6 +205,9 @@ function playMove(move) {
 	play(move);
 	// Swap color to play <div>
 	document.getElementById("colorToPlay").setAttribute("class", "token " + COLOR_NAMES[game.colorToPlay]);
+	// Deals with event listner for chrome android
+	selection.tile1.addEventListener("click", tileClicked);
+	selection.tile2.removeEventListener("click", tileClicked);
 }
 
 // Toggle Show Legal moves ON/OFF
