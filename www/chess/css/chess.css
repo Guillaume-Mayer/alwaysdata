@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	overflow: hidden;
+	font-family: "Indie Flower";
 }
 
 #main {
@@ -19,7 +20,6 @@ body {
 }
 
 #pan-main {
-	background-color: yellow;
 	width: 100vmin;
 	height: 100vmin;
 }
@@ -38,4 +38,65 @@ body {
 
 .tile2-selected {
 	fill: green;
+}
+
+.token {
+	display: inline-block;
+	box-shadow: 7px 7px 5px #888888;
+	margin: 1px 1px 1px 1px;
+	border: 1px dotted grey;
+	padding: 0px 3px 0px 3px;
+	background-color: #c2fb30;
+	-webkit-user-select: none;
+	cursor: default;
+}
+
+.White {
+	background-color: white;
+	font-size: 2em;
+	color: black;
+}
+.White::before {
+	content: "White ";
+}
+
+.Black {
+	background-color: black;
+	font-size: 2em;
+	color: white;
+}
+.Black::before {
+	content: "Black ";
+}
+
+.legal {
+	pointer-events: none;
+}
+
+.green {
+	fill: #00BB00;
+}
+
+.red {
+	fill: red;
+}
+
+.ON {
+	background-color: green;
+	cursor: pointer;
+}
+.ON::after {
+	content: "ON";
+}
+
+.OFF {
+	background-color: red;
+	cursor: pointer;
+}
+.OFF::after {
+	content: "OFF";
+}
+
+.rotate180 {
+	transform: rotate(180deg);
 }
