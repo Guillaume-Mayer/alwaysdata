@@ -95,12 +95,6 @@ a:hover {
 	}
 }
 
-@media print {
-	#passport {
-		display: none;
-	}
-}
-
 section {
 	vertical-align: top;
 	margin: 4px;
@@ -275,8 +269,34 @@ li {
 	list-style-type: square;
 }
 
-.dotted {
-	border-style: dotted;
-	border-color: black;
-	border-width: 1px;
+.popup {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 400ms ease-in;
+}
+
+.popup:target {
+	pointer-events: auto;
+	opacity: 1;
+}
+
+.popup > div {
+	position: absolute;
+	left: calc(50% - 26vmin);
+	top: calc(50% - 35vmin);
+	padding: 1vmin;
+	border-radius: 10px;
+	background: #ddd;
+	background: linear-gradient(#ddd, #888);
+}
+
+.popup > div > img {
+	width: 48vmin;
+	height: 66vmin;
 }
