@@ -3,9 +3,13 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="author" content="Guillaume Mayer"/>
-	<meta name="keywords" content="Dumb Chess, Chess, Desarrollador, Analista, Programador, PowerBuilder, Power Builder, Java, Santiago, Chile"/>
+	<meta name="keywords" content="DumbChess, Chess, Desarrollador, Analista, Programador, PowerBuilder, Power Builder, Java, Santiago, Chile, Guillaume Mayer, Front, JavaScript, Html5"/>
+	<meta property="og:title" content="Dumb Chess"/>
+	<meta property="og:image" content="http://gm77.alwaysdata.net/chess/img/preview.png"/>
+	<meta property="og:description" content="A chess engine you can beat"/>
+	<meta property="og:url" content="http://gm77.alwaysdata.net/chess"/>
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Indie+Flower"/>
-	<link rel="stylesheet" type="text/css" href="css/chess.css"/>
+	<link rel="stylesheet" type="text/css" href="dumb.css"/>
 	<title>Dumb Chess</title>
 </head>
 <body>
@@ -23,6 +27,7 @@
 			<div class="token"><p>SVG</p></div>
 			<div class="token"><p>and JavaScript</p></div>
 			<div class="token"><small>(Hand-made)</small></div>
+			<div class="token"><a href="https://github.com/Guillaume-Mayer/dumbchess-client" target="_blank">Source on GitHub</a></div>
 		</div>
 		<div id="pan-main">
 			<svg id="svg" width="100%" height="100%">
@@ -115,7 +120,8 @@
 				<ol>
 					<li>Deal with Draw</li>
 					<li>Save/load (LokiJS)</li>
-					<li>Play with someone (Node.js)</li>
+					<li>Think in background (Web Worker)</li>
+					<li>Play with someone (Web Socket)</li>
 					<li>Dumb mode</li>
 					<li>AI Improvements</li>
 				</ol>
@@ -143,7 +149,7 @@
 					<image x="50%" y="50%" width="50%" height="50%"/>
 				</g>
 			</svg>
-			<p align="right">or <a href="javascript:cancelPromote();">Cancel</a></p>
+			<p align="right">or <a id="cancelPromote" href="#">Cancel</a></p>
 		</div>
 	</div>
 	<div id="win" class="popup">
@@ -151,7 +157,7 @@
 			<svg>
 				<text x="10%" y="60%" textLength="80%" class="win">YOU WIN !!!</text>
 			</svg>
-			<p align="right"><a href="javascript:playAgain();">Play again</a></p>
+			<p align="right"><a id="playAgain" href="#">Play again</a></p>
 		</div>
 	</div>
 	<div id="lose" class="popup">
@@ -159,12 +165,9 @@
 			<svg>
 				<text x="10%" y="60%" textLength="80%" class="lose">YOU LOSE !!!</text>
 			</svg>
-			<p align="right"><a href="javascript:retry();">Retry</a> or <a href="javascript:unplayAfterLose();">unplay</a></p>
+			<p align="right"><a id="retry" href="#">Retry</a> or <a id="unplayAfterLose" href="#">unplay</a></p>
 		</div>
 	</div>
-	<script type="text/javascript" src="js/dumb-const.js"></script>
-	<script type="text/javascript" src="js/dumb-chess.js"></script>
-	<script type="text/javascript" src="js/dumb-client.js"></script>
-	<script type="text/javascript" src="js/dumb-main.js"></script>
+	<script type="text/javascript" src="dumb.js"></script>
 </body>
 </html>
